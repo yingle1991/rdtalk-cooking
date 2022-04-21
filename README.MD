@@ -1,8 +1,20 @@
-<p align="center"><a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
+# 初衷与诞生
 
+🚀今年两次被隔离在家，出不了门，会做饭人员比较紧张，只能往上找菜谱和做法，但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+设计灵感来源于[HowToCook](https://github.com/Anduin2017/HowToCook.git),但是操作界面我并不是很满意
 
-<h2 align="center">vuepress-theme-vdoing</h2>
+所以准备用程序员常用且清晰精准的描述来整理常见菜的做法，以方便隔离期间的程序员在家做饭，为人民服务。
 
-[在线文档(国内源)](https://doc.xugaoyi.com/)
+So,秉承着开源并有社区驱动和维护此开源项目，此项目并不涉及到很深的开发技术，只要会做饭，我都希望更多的人来维护参与进来，使此项目更有趣、更实用。
 
-[主题仓库](https://github.com/xugaoyi/vuepress-theme-vdoing)
+## 如何贡献
+
+1. GitHub方式
+针对发现的问题，直接修改并提交 Pull request 即可。
+
+在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜]()。
+
+2. 微信公众号
+
+微信搜【乐子侃生活】，回复想要增加的菜品或者 修正的菜品即可。
+

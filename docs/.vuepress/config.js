@@ -7,16 +7,16 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题
 
-  title: "vuepress-theme-vdoing",
-  description: '一个基于VuePress的 知识管理&博客 主题',
+  title: "How To Cook",
+  description: '今年两次被隔离在家，出不了门，会做饭人员比较紧张，只能往上找菜谱和做法，但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。所以准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
+    ['meta', { name: 'keywords', content: '做饭,疫情,美食,乐子侃生活,程序员' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ],
 
   // 主题配置
@@ -24,47 +24,47 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/a2f161/', items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
-          { text: '介绍', link: '/pages/a2f161/' },
-          { text: '快速上手', link: '/pages/793dcb/' },
-          { text: '目录结构', link: '/pages/2f674a/' },
-          { text: '核心配置和约定', link: '/pages/33d574/' },
-          { text: '自动生成front matter', link: '/pages/088c16/' },
-          { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
-          { text: 'Markdown 中使用组件', link: '/pages/197691/' },
-          {
-            text: '相关文章', items: [
-              { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-              { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-              { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-              { text: '部署', link: '/pages/0fc1d2/' },
-              { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-              { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-              { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
-            ]
-          }
+        text: '指南', link: '/pages/52d5c3/', items: [
+          { text: '初衷与诞生', link: '/pages/52d5c3/' },
+          { text: '食材准备', link: '/pages/7d7a38/',items: [
+            { text: '如何选择吃什么', link: '/pages/e903c3/' },
+            { text: '买菜助手', link: '/pages/865976/' },
+          ] },
+          { text: '技能升级', link: '/pages/61a65c/' }
         ]
       },
       {
-        text: '配置', link: '/pages/a20ce8/', items: [
-          { text: '主题配置', link: '/pages/a20ce8/' },
-          { text: '首页配置', link: '/pages/f14bdb/' },
-          { text: 'front matter配置', link: '/pages/3216b0/' },
-          { text: '目录页配置', link: '/pages/54651a/' },
-          { text: '添加摘要', link: '/pages/1cc523/' },
-          { text: '修改主题颜色和样式', link: '/pages/f51918/' },
-          { text: '评论栏', link: '/pages/ce175c/' },
+        text: '菜谱', link: '/pages/453134/', items: [
+          { text: '水产', link: '/pages/453134/',items: [
+            { text: '红烧鲤鱼', link: '/pages/574352/' },
+            { text: '红烧鱼头', link: '/pages/23a901/' },
+            { text: '咖喱炒蟹', link: '/pages/96612f/' },
+            { text: '清蒸生蚝', link: '/pages/569d6b/' },
+            { text: '微波葱姜黑鳕鱼', link: '/pages/d8f590/' },
+          ]},
+          { text: '素菜', link: '/pages/77aaa9/' ,items: [
+            { text: '酸辣土豆丝', link: '/pages/48e2d5/' },
+            { text: '地三鲜', link: '/pages/543b6a/' }
+          ]},
+          { text: '早餐', link: '/pages/21bb9a/',items: [
+            { text: '蒸水蛋', link: '/pages/990c2d/' },
+            { text: '太阳蛋', link: '/pages/565f53/' }
+          ] },
+          { text: '荤菜', link: '/pages/5a3451/' },
+          { text: '主食', link: '/pages/de70cc/' },
+          { text: '饮料', link: '/pages/5b2a96/',items: [
+            { text: 'B52轰炸机', link: '/pages/7c5a80/' },
+            { text: 'Mojito莫吉托', link: '/pages/5b2a96/' }
+          ] },
         ]
       },
       { text: '资源', link: '/pages/db78e2/' },
-      { text: '案例', link: '/pages/5d571c/' },
-      { text: '问答', link: '/pages/9cc27d/' },
+      { text: '示例', link: '/pages/5d571c/' },
       { text: '💖支持', link: '/pages/1b12ed/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'yingle1991', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -73,7 +73,7 @@ module.exports = {
     // editLinkText: '编辑',
 
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
@@ -101,8 +101,8 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Evan Xu', // 必需
-      href: 'https://github.com/xugaoyi' // 可选的
+      name: '乐子侃生活', // 必需
+      href: 'https://github.com/yingle1991' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -110,12 +110,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          link: 'mailto:yingle1991@gmail.com'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/yingle1991'
         },
         {
           iconClass: 'icon-erji',
@@ -126,7 +126,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
+      copyrightInfo: '乐子侃生活 | MIT License', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
@@ -161,7 +161,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+        hm: baiduCode || '26c191193100ca359f118359bcfa398b'
       }
     ],
 
@@ -190,6 +190,26 @@ module.exports = {
         },
       },
     ],
+    // [
+    //   'vuepress-plugin-comment', // 评论
+    //   {
+    //     choosen: 'gitalk',
+    //     options: {
+    //       clientID: 'b2fb1225935b1e7ddf96',
+    //       clientSecret: 'a17d96d731fd86d47f1d78cd543ef788a930e1e6',
+    //       repo: 'gitalk', // GitHub 仓库
+    //       owner: 'yingle1991', // GitHub仓库所有者
+    //       admin: ['yingle1991'], // 对仓库有写权限的人
+    //       // distractionFreeMode: true,
+    //       pagerDirection: 'last', // 'first'正序 | 'last'倒序
+    //       id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+    //       title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+    //       labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+    //       body:
+    //         '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+    //     },
+    //   },
+    // ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {
