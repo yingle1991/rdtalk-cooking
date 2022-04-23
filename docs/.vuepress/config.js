@@ -9,7 +9,7 @@ module.exports = {
 
   title: "How To Cook",
   description: '今年两次被隔离在家，出不了门，会做饭人员比较紧张，只能往上找菜谱和做法，但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。所以准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。',
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: '做饭,疫情,美食,乐子侃生活,程序员' }],
@@ -64,7 +64,7 @@ module.exports = {
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png', // 导航栏logo
-    repo: 'yingle1991', // 导航栏右侧生成Github链接
+    repo: 'yingle1991/rdtalk-cooking', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -102,7 +102,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: '乐子侃生活', // 必需
-      href: 'https://github.com/yingle1991' // 可选的
+      href: 'https://github.com/yingle1991/rdtalk-cooking' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -115,7 +115,7 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/yingle1991'
+          link: 'https://github.com/yingle1991/rdtalk-cooking'
         },
         {
           iconClass: 'icon-erji',
@@ -161,7 +161,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode || '26c191193100ca359f118359bcfa398b'
+        hm: baiduCode || 'c8927813d8f9d0dffd48cb0900d1d323'
       }
     ],
 

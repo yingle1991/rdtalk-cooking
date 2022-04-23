@@ -37,8 +37,8 @@ postList: none
 <p align="center">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/dt/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
-  <a href="https://github.com/yingle1991" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
+  <a href="https://github.com/yingle1991/rdtalk-cooking" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
+  <a href="https://github.com/yingle1991/rdtalk-cooking" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
 </p>
 
 ## 🎖特别用户
@@ -66,9 +66,9 @@ postList: none
 
 ## 🎉上新推荐
 
-<!-- * `v1.1.x`：从这个版本开始主题新增`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~ -->
+* `v1.0.x`：新增饮料分类制作，快来体验[:tropical_drink:饮品](/pages/5b2a96/)吧~
 
-更多上新请查阅：[**更新日志**](https://github.com/yingle1991)
+更多上新请查阅：[**更新日志**](https://github.com/yingle1991/rdtalk-cooking)
 
 <br/>
 
@@ -98,7 +98,7 @@ postList: none
 
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/yingle1991/issues)。
+在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/yingle1991/rdtalk-cooking/issues)。
 你也可以在Issue查看别人提的问题和给出解决方案。
 <!-- 
 或者加入我们的交流群：
